@@ -21,7 +21,6 @@ class TournamentTest(unittest.TestCase):
             print(key, value)
 
     def test_t_1(self):
-        # print('Мы в турнире')
         t_1 = rat.Tournament(90, self.runner_1, self.runner_3)
         res = t_1.start()
         self.all_results = res
